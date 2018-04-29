@@ -10,7 +10,10 @@
             "name": "針對 localhost 啟動 Chrome",
             "sourceMaps": true,
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--incognito"
+            ]
         }
     ]
 }
